@@ -36,8 +36,6 @@ int main(int argc, char* argv[])
 
 	showReportInfo(fileNameReport);
 
-	system("pause");
-
 }
 void launchCreator(std::string fileNameEmployees, int recordsNumber)
 {
