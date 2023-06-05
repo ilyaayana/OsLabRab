@@ -51,8 +51,11 @@ int main()
     {
         std::cout << parameters.arr[i] << " ";
     }
+    std::cout << "\n";
 
     delete[] parameters.arr;
+
+    system("pause");
 
 }
 
