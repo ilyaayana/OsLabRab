@@ -87,8 +87,6 @@ int main()
 		CloseHandle(processes[i]);
 	}
 
-	system("pause");
-
 }
 
 void clientRequestThread(void* params){
